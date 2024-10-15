@@ -46,7 +46,8 @@ export default function Page7() {
 
   return (
     <>
-      <Card productCardData={productCardData} />
+  
+  <Card address="../../../assets/image" productCardData={productCardData} />
 
       {/* hassan has designed this page */}
 

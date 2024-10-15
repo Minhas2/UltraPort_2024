@@ -51,7 +51,7 @@ export default function Page12() {
   return (
     <>
 
-      <div className='page-12'>
+      <div className='page-12 pops'>
 
         <div className='container '>
 
@@ -165,7 +165,7 @@ export default function Page12() {
 
           </div>
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
 
         </div>

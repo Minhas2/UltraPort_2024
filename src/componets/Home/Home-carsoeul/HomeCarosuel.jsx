@@ -1,15 +1,25 @@
 import React, { useState } from 'react';
 import "./HomeCarosuel.css";
-// import ASSET_PATHS from '../../utils/constant';
-
 import { Link } from 'react-router-dom';
+import ASSET_PATHS from '../../../utils/constant';
 
 export default function HomeCarosuel() {
+  const imgURL = ASSET_PATHS.IMG_URL;
 
   const carouselData = [
-    { image: 'HomeCarosuel_1.jpg', url: "/landing-page" },
-    { image: 'HomeCarosuel_2.jpg', url: "/abc" },
-    { image: 'HomeCarosuel_3.jpg', url: "/xyz" }
+    { image: 'HomeCarosuel_1.jpg', url: "/nvidia-rtx-40-star-wars-outlaws" },
+    { image: 'HomeCarosuel_2.jpg', url: "/amd-radeon-rx-7800xt-7700xt-game-bundle" },
+    { image: 'HomeCarosuel_3.jpg', url: "/powered-by-msi" },
+    { image: 'HomeCarosuel_4.jpg', url: "/amd-ryzen-9000" },
+    { image: 'HomeCarosuel_5.jpg', url: "/nvidia-rtx-ai-pcs" },
+    { image: 'HomeCarosuel_6.jpg', url: "/xbox-game-pass-ultimate" },
+    { image: 'HomeCarosuel_7.jpg', url: "/nvidia-rtx-40-super" },
+    // { image: 'HomeCarosuel_8.jpg', url: "/ki-pc" },
+    { image: 'HomeCarosuel_9.jpg', url: "/intel-core-14-generation" },
+    { image: 'HomeCarosuel_10.jpg', url: "/paiement-en-plusieurs-fois-alma" },
+    { image: 'HomeCarosuel_11.jpg', url: "/amd-ryzen-7000" },
+    { image: 'HomeCarosuel_12.jpg', url: "/corsair-icue-murals" },
+    { image: 'HomeCarosuel_13.jpg', url: "/en-securite-avec-windows-11" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,7 +43,7 @@ export default function HomeCarosuel() {
           {carouselData.map((data, index) => (
             <div className={`carousel-item ${index === currentIndex ? 'active' : ''}`} key={index}>
               <Link to={data.url}>
-                <img src={`assets/image/${data.image}`} className="d-block w-100" alt={`Slide ${index + 1}`} />
+                <img src={`${imgURL}/${data.image}`} className="d-block w-100" alt={`Slide ${index + 1}`} />
               </Link>
             </div>
           ))}

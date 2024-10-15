@@ -74,7 +74,7 @@ export default function Page6() {
   return (
     <>
 
-      <div className='page-6'>
+      <div className='page-6 pops'>
 
         <div className='container '>
 

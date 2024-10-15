@@ -146,7 +146,7 @@ Les cartes prépayées, virtuelles et à autorisation systématique ne sont pas 
   return (
     <>
 
-      <div className='page-9'>
+      <div className='page-9 pops'>
 
         <div className='container '>
 
@@ -166,7 +166,7 @@ Les cartes prépayées, virtuelles et à autorisation systématique ne sont pas 
           </div>
 
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
 
           {/* faq panding */}

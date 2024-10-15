@@ -71,7 +71,7 @@ export default function Page8() {
   return (
     <>
 
-      <div className='page-8'>
+      <div className='page-8 pops'>
 
         <div className='container '>
 
@@ -156,7 +156,8 @@ export default function Page8() {
           />
 
 
-          <Card productCardData={productCardData} />
+      
+<Card address="../../../assets/image" productCardData={productCardData} />
 
           <div className='image-container '>
             <img

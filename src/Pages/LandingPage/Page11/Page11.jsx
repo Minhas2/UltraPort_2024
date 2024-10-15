@@ -51,7 +51,7 @@ export default function Page11() {
   return (
     <>
 
-      <div className='page-11'>
+      <div className='page-11 pops'>
 
         <div className='container '>
 
@@ -81,7 +81,7 @@ export default function Page11() {
 
 
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
           <div className='image-container '>
             <img src={`${imgURL}/page11-4.jpg`} className='w-100' />

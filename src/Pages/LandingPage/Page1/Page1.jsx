@@ -72,7 +72,7 @@ export default function Page1() {
 
   return (
     <>
-      <div className="page-1">
+      <div className="page-1 pops">
         <div className="container ">
           <div className="content w-100 d-flex align-items-center py-5 flex-column">
             <h1>
@@ -84,7 +84,8 @@ export default function Page1() {
             </p>
           </div>
 
-          <Card productCardData={productCardData} />
+
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
           <div className="image-container">
             <img

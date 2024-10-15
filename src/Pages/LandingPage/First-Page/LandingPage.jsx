@@ -72,7 +72,7 @@ export default function LandingPage() {
   return (
     <>
 
-      <div className='landing-page'>
+      <div className='landing-page pops'>
 
         <div className='container '>
           <div className='image-container'>
@@ -144,7 +144,7 @@ export default function LandingPage() {
 
 
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
 
 

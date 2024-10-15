@@ -72,7 +72,7 @@ export default function Page4() {
   return (
     <>
 
-      <div className='page-4'>
+      <div className='page-4 pops'>
 
         <div className='container '>
 
@@ -85,7 +85,7 @@ export default function Page4() {
             />
           </div>
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
           <div className='image-container'>
             <img

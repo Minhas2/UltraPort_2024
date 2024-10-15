@@ -50,7 +50,7 @@ export default function Page10() {
   return (
     <>
 
-      <div className='page-10'>
+      <div className='page-10 pops'>
 
         <div className='container '>
 
@@ -74,7 +74,7 @@ export default function Page10() {
           </div>
 
 
-          <Card productCardData={productCardData} />
+          <Card address="../../../assets/image" productCardData={productCardData} />
 
 
 
