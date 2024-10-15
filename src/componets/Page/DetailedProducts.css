@@ -1,0 +1,251 @@
+.black-border {
+    border: 1px solid black;
+  }
+
+.dark-grayBack{
+    background-color: #373F47;
+}
+
+.line-through{
+    text-decoration: line-through;
+    
+}
+
+  
+  .main-image {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .highlighted {
+    border: 2px solid green; /* Highlight the selected thumbnail */
+    filter: brightness(1.2); /* Brighten the selected image */
+  }
+  
+
+  .centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centered-content:before,
+  .centered-content:after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px dotted #000; /* Color of the lines */
+    margin: 0 10px; /* Space between the line and the text */
+  }
+  
+  .centered-content span {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .border-bot{
+    border-bottom: 1px  dotted black;
+  }
+
+
+  .green-hover {
+    color: inherit; /* Default color */
+    cursor: pointer; /* Show pointer on hover */
+    transition: color 0.3s ease; /* Smooth transition for the color change */
+  }
+  
+  .green-hover:hover {
+    color: #89c600; /* Change to green on hover */
+  }
+  
+  .mini-border{
+    border: 2px solid  #89c600;
+    width: 50px;
+  }
+
+  .gray-strip{
+    border: 1px solid #383d3f;
+  }
+  .red{
+    color: red;
+  }
+
+.form-input{
+    color: white;
+    border: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.form-input:focus {
+    border-color: white;
+    outline: none; 
+  }
+
+
+  .form-textarea{
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsla(0, 0%, 100%, .1)
+  }
+  .form-textarea:focus {
+    border-color: white;
+    outline: none; 
+  }
+
+  .form-Avis-btn {
+    text-transform: uppercase;
+    background: white;
+    font-size: 14px;
+    padding: 17px 44px;
+    font-weight: 600;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
+}
+
+.form-Avis-btn:hover {
+    background-color: #89c600; 
+    color: white; 
+}
+
+/* Default styling for installment options */
+.installment-option {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Active option styling (on click) */
+  .installment-option.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style for price display */
+  .price-display {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+
+  .product-btn{
+    background-color: #89c600;
+     border: none;
+     padding: 0px 20px;
+     color: white;
+     font-weight: bold;
+     clip-path: polygon(0.4rem 0, 100% 0, 100% 100%, 0 100%);
+
+  }
+
+
+  .white-MiniBorder{
+    border-top: 1px solid #89C600;
+  }
+
+  .old{
+    font-size: 12px;
+  }
+
+  .new{
+    font-size: 18px;
+  }
+  .p-12 {
+    padding-left: 12px;
+}
+  .mob-alma h1{
+    font-weight: bold;
+    font-size: 18px
+    ;
+  }
+  .mob-alma p{
+    font-weight: 500;
+    font-size: 14px
+    ;
+  }
+
+  .bot-mob-alma .container{
+    --bs-gutter-x: 0rem;
+  }
+
+  .detail-h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+
+
+
+  @media (max-width: 1024px) {
+    .product-btn {
+     
+      border: none;
+      padding: 0px 10px;
+      
+  }
+
+  }
+
+  @media (max-width: 991px) {
+ .mt-991{
+  margin-top: 20px;
+ }
+  }
+
+
+
+  @media (max-width: 575px) {
+    .product-btn {
+      align-items: center;
+      font-size: 14px;
+      background-color: #89c600;
+      border: none;
+      padding: 11px 42px;
+      color: white;
+      font-weight: bold;
+      clip-path: polygon(0.4rem 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+
+  }
+
+
+
+  @media (max-width: 425px) {
+    .detail-h1 {
+      font-size: 22px;
+      font-weight: 300;
+  }
+
+  .mob-span{
+    font-size: 10px;
+  }
+
+  .product-btn {
+    padding: 2px 15px;
+   
+}
+
+
+
+  }
+
+
+
+  @media (max-width: 412px) {
+    .product-btn {
+      align-items: center;
+      font-size: 14px;
+      background-color: #89c600;
+      border: none;
+      padding: 2px 15px;
+      color: white;
+      font-weight: bold;
+      clip-path: polygon(0.4rem 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+
+
+  }
+
+
+ 
