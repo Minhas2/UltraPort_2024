@@ -1,0 +1,36 @@
+.HomeProdcutCarsouel .carousel-control-prev,
+.HomeProdcutCarsouel .carousel-control-next {
+  width: 30px;
+  /* Adjust width as needed */
+  border: none;
+  /* Remove any border */
+  transition: transform 0.3s, opacity 0.3s;
+  /* Smooth transition */
+  opacity: 0;
+  /* Initially hidden */
+  pointer-events: none;
+  /* Prevent clicks when hidden */
+}
+
+.HomeProdcutCarsouel .carousel-control-prev.show,
+.HomeProdcutCarsouel .carousel-control-next.show {
+  opacity: 1;
+  /* Fully visible when shown */
+  pointer-events: auto;
+  /* Allow clicks when visible */
+}
+
+.HomeProdcutCarsouel .carousel-control-prev:hover,
+.HomeProdcutCarsouel .carousel-control-next:hover {
+  transform: translateX(5px);
+  /* Move right on hover (adjust as needed) */
+}
+
+.HomeProdcutCarsouel .carousel-control-prev-icon,
+.HomeProdcutCarsouel .carousel-control-next-icon {
+  padding: 1vh 1vw;
+  /* Adjust padding for better visibility */
+  background-size: 50% 50%;
+  /* Adjust icon size */
+  background-color: rgb(187, 194, 201);
+}

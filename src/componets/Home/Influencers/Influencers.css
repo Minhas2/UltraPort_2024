@@ -61,3 +61,34 @@
 
   }
   
+
+
+
+
+
+  .Influencers .carousel-control-prev,
+.Influencers .carousel-control-next {
+  width: 30px; /* Adjust width for arrows */
+  border: none; /* Remove borders */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transitions */
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Disable click when hidden */
+}
+
+.Influencers .carousel-control-prev.show,
+.Influencers .carousel-control-next.show {
+  opacity: 1; /* Show arrows when the 'show' class is applied */
+  pointer-events: auto; /* Enable click when visible */
+}
+
+.Influencers .carousel-control-prev:hover,
+.Influencers .carousel-control-next:hover {
+  transform: translateX(5px); /* Slight shift on hover for smooth feel */
+}
+
+.Influencers .carousel-control-prev-icon,
+.Influencers .carousel-control-next-icon {
+  padding: 1vh 1vw; /* Adjust padding for better visibility */
+  background-size: 50% 50%; /* Adjust icon size */
+  background-color: rgb(187, 194, 201); /* Add custom background color */
+}

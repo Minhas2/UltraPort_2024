@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./PcProductCarsouel.css";
-import Card from "../../Card/CardHome";
-
+import Card from '../../../componets/Card/CardHome';
 
 const productData = [
   {
@@ -206,8 +205,6 @@ export default function PcProductCarsouel() {
                       )
                       .map((product, index) => (
                         <div className="col-md-4" key={product.id}>
-                        
-
                           <Card productCardData={[product]} />{" "}
                           {/* Pass individual product as prop */}
                         </div>

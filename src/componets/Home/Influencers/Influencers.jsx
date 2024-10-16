@@ -69,7 +69,7 @@ export default function Influencers() {
             </p>
 
             {/* CAROUSEL STARTS */}
-            <div className="container-fluid">
+            <div className="container-fluid Influencers">
               <div
                 id="influencersCarousel"
                 className="carousel slide"

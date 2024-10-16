@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./HomeProdcutCarsouel.css";
-import Card from "../../Card/CardHome";
-
+import Card from '../../../componets/Card/CardHome';
 
 const productData = [
   {

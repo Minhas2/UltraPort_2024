@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./ReviewCard.css"; // Ensure you have necessary styles
+import "./Review.css"
 
 const reviewData = [
   {
@@ -65,7 +65,7 @@ export default function ReviewCard() {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid Review">
       <div className="carousel slide" id="reviewCarousel" data-bs-ride="carousel">
         <div className="carousel-inner">
           {Array.from(
